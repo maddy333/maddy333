@@ -1,64 +1,98 @@
 # Hi there, I'm Madhav Mohan 👋
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohan60)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:madhavm60@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/mohan60)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:madhavm60@gmail.com)
 
-I am an **AI Platform & LLMOps Engineer** specializing in bridging the gap between cutting-edge Generative AI research and production-grade, cloud-native infrastructure. I design resilient, cost-efficient AI platforms, autonomous multi-agent graphs, and scalable MLOps pipelines that process live data at sub-second latency.
+## AI Platform Engineer | GenAI Engineer | LLMOps Engineer
 
----
+I specialize in transforming Generative AI from experimentation into production-ready systems.
 
-### 🛠️ What I Do
+With experience spanning AI platform engineering, cloud-native infrastructure, MLOps, and the full LLM lifecycle, I design scalable AI systems that are reliable, observable, cost-efficient, and enterprise-ready.
 
-* **Agentic Workflows & GenAI:** Architecting stateful, deterministic multi-agent systems using LangGraph/LangChain, advanced hybrid RAG pipelines, and strict schema-conforming LLM orchestration.
-
-* **LLM Optimization & Fine-Tuning:** Compressing, quantum-tuning (QLoRA/PEFT), and serving models (via vLLM/Triton) optimized for resource-constrained edge environments and high-throughput production workloads.
-
-* **Cloud-Native MLOps & Infra:** Building secure, isolated, and auto-scaling GPU-aware clusters on AWS EKS using modular Terraform (IaC), Helm, and automated GitOps/CI-CD pipelines.
-
-* **Distributed Data Pipelines:** Designing high-throughput streaming systems utilizing PySpark, Kafka, and Databricks to feed real-time analytical engines.
+My work focuses on building agentic AI applications, production RAG systems, local inference platforms, and Kubernetes-native AI infrastructure capable of supporting real-world workloads at scale.
 
 ---
 
-### 🚀 Featured Production Blueprints
+### 🚀 What I Build
 
-| Repository | Focus Area | Core Stack |
-| :--- | :--- | :--- |
-| 🤖 **enterprise-ai-copilot-langgraph** | Multi-Agent Orchestration & Evals | Python, LangGraph, FastAPI, LangSmith, FAISS |
-| 🤺 **fencing-llm-edge-optimizer** | QLoRA Fine-Tuning & Quantization | PyTorch, PEFT, bitsandbytes, vLLM, W&B |
-| 🏗️ **aws-eks-mlops-terraform** | Cloud Infrastructure & MLOps | Terraform, AWS EKS (GPU Nodes), Helm, Prometheus |
+#### Agentic AI & Generative AI Platforms
+
+* Multi-agent workflows with LangGraph and LangChain
+* Production-grade RAG systems with hybrid retrieval
+* Structured generation and tool-calling architectures
+* Enterprise AI copilots and autonomous workflows
+
+#### LLMOps & Model Optimization
+
+* QLoRA, PEFT, and parameter-efficient fine-tuning
+* Quantization and resource-efficient inference
+* Local model serving with vLLM and Ollama
+* Evaluation, benchmarking, and regression testing pipelines
+
+#### AI Infrastructure & Platform Engineering
+
+* AWS EKS-based AI platforms
+* Terraform-driven Infrastructure as Code
+* Kubernetes, Helm, Docker, and GitOps workflows
+* GPU-aware deployment and autoscaling strategies
+
+#### Data & Analytics Platforms
+
+* Databricks and Spark pipelines
+* Kafka-based event-driven architectures
+* Real-time and batch data processing systems
+* Enterprise analytics and AI data foundations
+
+---
+
+### 🏆 Selected Impact
+
+* Reduced AI deployment failures by **70%** through automated MLOps pipelines
+* Eliminated external LLM API costs through local model inference infrastructure
+* Built semantic search systems across **20+ years** of sports data
+* Improved AI environment provisioning speed by **90%**
+* Reduced infrastructure costs by **15%** through Kubernetes optimization
+* Delivered production AI systems supporting enterprise-scale workloads
 
 ---
 
 ### 🧰 Technical Toolbox
 
-<table>
-<tr>
-<td valign="top" width="33%">
-<strong>GenAI & Agentic AI</strong><br>
-• LangGraph / LangChain<br>
-• Agentic Workflows & Tool Calling<br>
-• Hybrid Search / Semantic RAG<br>
-• FAISS / ChromaDB / LlamaIndex<br>
-• Context & Prompt Engineering
-</td>
-<td valign="top" width="33%">
-<strong>LLMOps & Fine-Tuning</strong><br>
-• QLoRA / LoRA / PEFT / SFTTrainer<br>
-• 4-bit Quantization (bitsandbytes)<br>
-• vLLM / Ollama Serving / Triton<br>
-• LangSmith / Model Drift Analytics<br>
-• Token & Inference Cost Optimization
-</td>
-<td valign="top" width="33%">
-<strong>Infrastructure & Data</strong><br>
-• AWS EKS / IAM IRSA / VPC<br>
-• Terraform (Infrastructure as Code)<br>
-• Kubernetes / Helm / Docker<br>
-• GitHub Actions CI/CD<br>
-• Apache Kafka / PySpark / Databricks
-</td>
-</tr>
-</table>
+#### GenAI & Agentic AI
+
+LangGraph • LangChain • Agentic AI • RAG • Function Calling • FAISS • ChromaDB • Prompt Engineering • OpenAI API • Anthropic API
+
+#### LLMOps & Fine-Tuning
+
+QLoRA • LoRA • PEFT • vLLM • Ollama • Model Evaluation • RAGAS • CUDA • Quantization • W&B
+
+#### Cloud & Infrastructure
+
+AWS EKS • Kubernetes • Terraform • Helm • Docker • Prometheus • Grafana • FastAPI • GitHub Actions
+
+#### Data & Platforms
+
+Python • SQL • Kafka • Databricks • Spark • Azure
+
+---
+
+### 🌟 Featured Projects
+
+#### 🤖 Enterprise AI Copilot
+
+Production-scale RAG platform built with LangGraph, FastAPI, FAISS, and Kubernetes.
+
+#### ⚡ HydraLM
+
+Distributed LLM routing and token optimization platform focused on cost-aware and latency-aware model orchestration.
+
+#### 🤺 Fencing-LLM
+
+QLoRA fine-tuning project optimized for structured generation and edge deployment.
+
+#### 🏗️ AI Infrastructure Platform
+
+Terraform-powered AWS blueprint for deploying production AI workloads on Kubernetes.
 
 ---
 
@@ -71,8 +105,11 @@ I am an **AI Platform & LLMOps Engineer** specializing in bridging the gap betwe
 
 ---
 
-### 📬 Let's Connect!
+### 📬 Let's Connect
 
-* **Email:** madhavm60@gmail.com
-* **LinkedIn:** [linkedin.com/in/mohan60](https://linkedin.com/in/mohan60)
-* **Location:** Chennai / Bengaluru / Hyderabad, India
+📍 Chennai, India
+
+💼 LinkedIn: https://linkedin.com/in/mohan60
+
+📧 [madhavm60@gmail.com](mailto:madhavm60@gmail.com)
+
