@@ -30,7 +30,7 @@ Distributed LLM routing with latency-aware provider selection, circuit-breaking 
 
 ---
 
-### Enterprise AI Copilot(https://github.com/maddy333/enterprise-ai-copilot) — production RAG platform
+### [Enterprise AI Copilot](https://github.com/maddy333/enterprise-ai-copilot) — production RAG platform
 Multi-agent RAG system for semantic search over 20+ years of sports data. Hybrid FAISS + BM25 retrieval, structured tool-calling via LangGraph, and async FastAPI backend deployed on AWS EKS.
 
 `LangGraph` `LangChain` `FAISS` `FastAPI` `AWS EKS` `Helm`
@@ -46,7 +46,7 @@ QLoRA fine-tune of Llama-3.2-1B-Instruct for offline match analysis on resource-
 
 ---
 
-### Terraform AI Platform (https://github.com/maddy333/terraform-aws-ai-platform)— AWS EKS blueprint
+### [Terraform AI Platform](https://github.com/maddy333/terraform-aws-ai-platform)— AWS EKS blueprint
 Production-ready IaC for AI workloads: GPU node pools, auto-scaling policies, Prometheus/Grafana observability, Helm chart library, and full GitHub Actions GitOps pipeline. Reduced provisioning time by 90%, infrastructure costs by 15%.
 
 `Terraform` `AWS EKS` `Kubernetes` `Helm` `Prometheus` `Grafana` `GitHub Actions`
