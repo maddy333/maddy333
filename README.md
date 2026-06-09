@@ -1,77 +1,227 @@
+<div align="center">
+
 # Madhav Mohan
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohan60)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:madhavm60@gmail.com)
-[![AWS DE Associate](https://img.shields.io/badge/AWS_Certified-DE_Associate-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)](#)
-[![DP-203](https://img.shields.io/badge/Microsoft-DP--203-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](#)
+### AI Engineer • GenAI Engineer • LLMOps • MLOps
 
-I build the infrastructure that takes LLMs from experiments to production — routing, evaluation, observability, and scalable deployment on Kubernetes and AWS.
+Building production-grade AI systems, LLM infrastructure, and scalable GenAI platforms.
 
----
+<p>
+  <a href="https://linkedin.com/in/mohan60">
+    <img src="https://img.shields.io/badge/LinkedIn-Madhav_Mohan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:madhavm60@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/maddy333">
+    <img src="https://img.shields.io/badge/GitHub-maddy333-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-## Impact
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=900&lines=Production+AI+Engineer;LLMOps+%7C+MLOps+%7C+Kubernetes;Fine-Tuning+Open-Source+LLMs;Building+Reliable+AI+Infrastructure;AWS+%7C+Terraform+%7C+LangGraph" />
 
-| | |
-|---|---|
-| **70%** reduction in AI deployment failures | Automated MLOps pipelines with drift detection and rollback |
-| **90%** faster AI environment provisioning | Terraform IaC on AWS EKS with GPU-aware node pools |
-| **65% → 98%** JSON schema compliance | QLoRA fine-tuning for structured generation at edge |
-| **5.8 GB → 1.6 GB** VRAM footprint | 4-bit quantization + PEFT for resource-constrained inference |
-| **22 → 45 tok/s** inference throughput | Optimised fine-tuned model serving on-device |
-
----
-
-## Featured Projects
-
-### [HydraLM](https://github.com/maddy333/hydralm) — LLM router & cost optimiser
-Distributed LLM routing with latency-aware provider selection, circuit-breaking health monitors, and per-request cost tracking. Built to reduce external API spend without degrading response quality or increasing tail latency.
-
-`Python` `FastAPI` `LangChain` `vLLM` `Prometheus` `Kubernetes`
+</div>
 
 ---
 
-### [Enterprise AI Copilot](https://github.com/maddy333/enterprise-ai-copilot) — production RAG platform
-Multi-agent RAG system for semantic search over 20+ years of sports data. Hybrid FAISS + BM25 retrieval, structured tool-calling via LangGraph, and async FastAPI backend deployed on AWS EKS.
+# About Me
 
-`LangGraph` `LangChain` `FAISS` `FastAPI` `AWS EKS` `Helm`
+I build the infrastructure that takes AI systems from notebooks to production.
 
----
-
-### [Fencing-LLM](https://github.com/maddy333/fencingllm) — QLoRA fine-tuning for edge inference
-QLoRA fine-tune of Llama-3.2-1B-Instruct for offline match analysis on resource-constrained hardware. Benchmarked across JSON compliance, VRAM usage, and throughput — documented with reproducible training config and eval results.
-
-> JSON schema compliance: **65% → 98%** · VRAM: **5.8 GB → 1.6 GB** · Throughput: **22 → 45 tok/s**
-
-`QLoRA` `LoRA` `PEFT` `Llama-3.2` `CUDA` `MLflow` `Transformers`
+- Production AI platforms on AWS & Kubernetes
+- Fine-tuning open-source LLMs with QLoRA/PEFT
+- Multi-agent systems using LangGraph
+- AI observability, evaluation and deployment automation
+- Infrastructure as Code using Terraform
 
 ---
 
-### [Terraform AI Platform](https://github.com/maddy333/terraform-aws-ai-platform)— AWS EKS blueprint
-Production-ready IaC for AI workloads: GPU node pools, auto-scaling policies, Prometheus/Grafana observability, Helm chart library, and full GitHub Actions GitOps pipeline. Reduced provisioning time by 90%, infrastructure costs by 15%.
+# Impact
 
-`Terraform` `AWS EKS` `Kubernetes` `Helm` `Prometheus` `Grafana` `GitHub Actions`
+<div align="center">
 
----
+| Metric | Result |
+|----------|----------|
+| AI Deployment Failures | **↓ 70%** |
+| Environment Provisioning Time | **↓ 90%** |
+| JSON Compliance | **65% → 98%** |
+| VRAM Usage | **5.8 GB → 1.6 GB** |
+| Inference Throughput | **22 → 45 tok/s** |
 
-## Technical Stack
-
-**GenAI & Agents** — LangGraph · LangChain · RAG · FAISS · ChromaDB · OpenAI API · Anthropic API · Function Calling
-
-**LLMOps & Fine-Tuning** — QLoRA · LoRA · PEFT · vLLM · Ollama · RAGAS · MLflow · W&B · CUDA · Quantization
-
-**AI Infrastructure** — AWS EKS · Terraform · Kubernetes · Helm · Docker · Prometheus · Grafana · GitHub Actions
-
-**Data Engineering** — Spark · Kafka · Databricks · FastAPI · Python · SQL · Azure
+</div>
 
 ---
 
-## GitHub Stats
+# Featured Projects
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=maddy333&show_icons=true&theme=tokyonight&count_private=true" height="155px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maddy333&layout=compact&theme=tokyonight" height="155px" />
+## HydraLM
+
+### Cost-Aware LLM Router
+
+Distributed routing layer for multiple LLM providers.
+
+#### Highlights
+
+- Latency-aware model selection
+- Cost optimization engine
+- Circuit breaker protection
+- Health monitoring
+- Usage analytics
+- Open-source
+
+#### Stack
+
+`Python`
+`FastAPI`
+`LangChain`
+`vLLM`
+`Prometheus`
+`Kubernetes`
+
+🔗 https://github.com/maddy333/hydralm
+
+---
+
+## Enterprise AI Copilot
+
+### Production Multi-Agent RAG Platform
+
+Semantic search and agent orchestration over large-scale sports data.
+
+#### Highlights
+
+- LangGraph multi-agent architecture
+- Hybrid BM25 + FAISS retrieval
+- Tool-calling workflows
+- AWS EKS deployment
+- Async FastAPI backend
+
+#### Stack
+
+`LangGraph`
+`LangChain`
+`FAISS`
+`AWS EKS`
+`Helm`
+`FastAPI`
+
+---
+
+## Fencing-LLM
+
+### QLoRA Fine-Tuning for Edge Inference
+
+Optimized Llama deployment for resource-constrained environments.
+
+#### Results
+
+| Metric | Before | After |
+|----------|----------|----------|
+| JSON Compliance | 65% | 98% |
+| VRAM Usage | 5.8 GB | 1.6 GB |
+| Throughput | 22 tok/s | 45 tok/s |
+
+#### Stack
+
+`QLoRA`
+`LoRA`
+`PEFT`
+`CUDA`
+`MLflow`
+`Transformers`
+
+---
+
+## Terraform AI Platform
+
+### Production AI Infrastructure Blueprint
+
+Enterprise-ready AWS EKS foundation for AI workloads.
+
+#### Highlights
+
+- GPU node pools
+- GitOps pipelines
+- Autoscaling
+- Monitoring stack
+- Helm deployment framework
+
+#### Results
+
+- 90% faster provisioning
+- 15% infrastructure savings
+
+---
+
+# Tech Stack
+
+### AI / GenAI
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" />
+</p>
+
+LangGraph • LangChain • RAG • FAISS • ChromaDB • OpenAI • Anthropic
+
+---
+
+### LLMOps
+
+QLoRA • LoRA • PEFT • vLLM • Ollama • MLflow • RAGAS • W&B
+
+---
+
+### Cloud & Infrastructure
+
+<p>
+<img src="https://skillicons.dev/icons?i=aws,kubernetes,docker,terraform,linux,githubactions" />
+</p>
+
+AWS EKS • Helm • Prometheus • Grafana
+
+---
+
+### Data Engineering
+
+Spark • Kafka • Databricks • SQL • FastAPI • Azure
+
+---
+
+# Certifications
+
+<p>
+<img src="https://img.shields.io/badge/AWS-Data_Engineer_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Microsoft-DP--203-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
 </p>
 
 ---
 
-📍 Chennai, India &nbsp;·&nbsp; [linkedin.com/in/mohan60](https://linkedin.com/in/mohan60) &nbsp;·&nbsp; 
+# GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=maddy333&show_icons=true&count_private=true&theme=tokyonight"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maddy333&layout=compact&theme=tokyonight"/>
+
+</div>
+
+---
+
+# Current Focus
+
+- LLM Routing & Optimization
+- Agentic AI Systems
+- Open Source AI Infrastructure
+- Kubernetes-native AI Platforms
+- Evaluation & Observability
+
+---
+
+<div align="center">
+
+### Open to AI Engineer • GenAI Engineer • LLMOps • MLOps Opportunities
+
+Chennai • Bangalore • Hyderabad • Remote
+
+</div>
